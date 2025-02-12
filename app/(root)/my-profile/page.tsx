@@ -5,7 +5,7 @@ import { sampleBooks } from '@/constants';
 
 const page = () => {
   return <>
-    <form 
+    {/* <form 
        action={async () => {
         "use server";
 
@@ -14,7 +14,7 @@ const page = () => {
       className='mb-10'
     >
         <Button>Logout</Button>
-     </form>
+     </form> */}
 
      <BookList title="Borrowed Books" books={sampleBooks}/>
   </>
